@@ -1,0 +1,1 @@
+/home/ngeran/linuxtoolbox/mybash/.bashrc
