@@ -1,6 +1,0 @@
-2024/09/09-17:43:24.148 441 Reusing MANIFEST /home/ngeran/.config/thorium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/09-17:43:24.148 441 Recovering log #3
-2024/09/09-17:43:24.152 441 Reusing old log /home/ngeran/.config/thorium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000003.log 
-2024/09/09-17:43:36.497 442 Level-0 table #5: started
-2024/09/09-17:43:36.507 442 Level-0 table #5: 2934555 bytes OK
-2024/09/09-17:43:36.508 442 Delete type=0 #3

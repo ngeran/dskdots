@@ -1,9 +1,0 @@
-2024/09/09-17:07:38.673 442 Reusing MANIFEST /home/ngeran/.config/thorium/Default/Sync Data/LevelDB/MANIFEST-000001
-2024/09/09-17:07:38.675 442 Recovering log #7
-2024/09/09-17:07:38.677 442 Reusing old log /home/ngeran/.config/thorium/Default/Sync Data/LevelDB/000007.log 
-2024/09/09-17:42:50.792 450 Level-0 table #11: started
-2024/09/09-17:42:50.794 450 Level-0 table #11: 111337 bytes OK
-2024/09/09-17:42:50.794 450 Delete type=0 #7
-2024/09/09-18:12:57.851 452 Level-0 table #13: started
-2024/09/09-18:12:57.853 452 Level-0 table #13: 95693 bytes OK
-2024/09/09-18:12:57.854 452 Delete type=0 #10
