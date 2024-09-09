@@ -1,3 +1,0 @@
-GitLens v15.4.0 activating in Cursor (1.91.1) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (4364ebee0357723090c7678273540c2531ba09b7d0e29a1ce00063ca80cf6035|d0fa1ade-ea50-47fb-b53c-1d4b5a16d97e1725913088002)
-To enable debug logging, set `"gitlens.outputLevel: "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
-[2024-09-09 20:18:08.479] [GIT          ] [/home/ngeran/.cursor-tutor] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [13ms]
