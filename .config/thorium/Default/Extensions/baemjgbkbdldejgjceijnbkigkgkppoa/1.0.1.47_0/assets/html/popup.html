@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <script src="/assets/js/tabs.js"></script>
+    <script src="/assets/js/popup.js"></script>
+    <link rel="stylesheet" href="/assets/css/opensans.css" />
+    <link rel="stylesheet" href="/assets/css/popup.css" />
+</head>
+
+<body>
+    <div class="content header">
+        <div class="icon logo">
+            <a id="partPageLink" href="https://snapeda.com/?plugin=snap_extension" target="_blank"><img src="/assets/icons/logo/color.svg"></a>
+        </div>
+        <div class="text">SnapMagic</div>
+        <div class="icon help">
+            <a href="https://snapeda.com/extension" target="_blank" title="Help">
+                <object type="image/svg+xml" data="/assets/img/question.svg"></object>
+                <div class="snap-tooltip">Help</div>
+            </a>
+        </div>
+        <div class="icon close">
+            <a id="closewindow" href="#">
+                <svg>
+                    <use xlink:href="/assets/img/close.svg#close"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="content body">
+        <div class="tabs container" tab-group="main" tab-active="component">
+            <div class="tabs content">
+                <div class="tab content" tab-id="component" tab-title="SnapMagic">
+                    <div class="component">
+                        <div class="tabs container" tab-group="2d3d" tab-active="2d">
+                            <div class="tabs switcher">
+                                <div class="tab switch" tab-id="2d">
+                                    <div class="title">2D</div>
+                                    <div class="indicator"></div>
+                                </div>
+                                <div class="tab switch" tab-id="3d">
+                                    <div class="title">3D</div>
+                                    <div class="indicator"></div>
+                                </div>
+                            </div>
+                            <div class="tabs content">
+                                <div class="tab content" tab-id="2d">
+                                    <div class="partimages2d available">
+                                        <div class="images">
+                                            <div class="partimage2d symbol available">
+                                                <img src="#" id="symbol2d" />
+                                            </div>
+                                            <div class="partimage2d symbol request">
+                                                <svg height="40">
+                                                    <use xlink:href="/assets/img/ghost.svg#ghost"></use>
+                                                </svg>
+                                                <button id="btnRequest2DSymbol" class="request2d">Request</button>
+                                            </div>
+                                            <div class="partimage2d symbol nopreview">
+                                                <img height="40" src="/assets/img/no-preview-symbol.png">
+                                                <div class="text">No preview available</div>
+                                            </div>
+                                            <div class="partimage2d footprint available">
+                                                <img src="#" id="package2d" />
+                                            </div>
+                                            <div class="partimage2d footprint request">
+                                                <svg height="40">
+                                                    <use xlink:href="/assets/img/ghost.svg#ghost"></use>
+                                                </svg>
+                                                <div class="request2d container">
+                                                    <button id="btnRequest2DFootprint" class="request2d">
+                                                        Request
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="partimage2d footprint nopreview">
+                                                <img height="40" src="/assets/img/no-preview-footprint.png">
+                                                <div class="text">No preview available</div>
+                                            </div>
+                                        </div>
+                                        <div class="cad2d">
+                                            <div class="cad2d content">
+                                                <div class="title">&nbsp</div>
+                                                <div class="download">
+                                                    <div class="selectbox">
+                                                        <div class="select">
+                                                            <div class="fakeselect">
+                                                                <input type="text" id="cadformatvalue" value="SnapEDA Library Format" disabled>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <button class="button main" id="btnDownload2D">
+                                                        <div class="icon white">
+                                                            <svg width="24" height="20">
+                                                                <use xlink:href="/assets/img/download.svg#download">
+                                                                </use>
+                                                            </svg>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                                <!--
+                                                    <div class="alert">
+                                                        <div class="icon">
+                                                            <div class="icon">
+                                                                <img width="16" height="16" src="/assets/img/excl.svg">
+                                                            </div>
+                                                        </div>
+                                                        <div class="text">
+                                                            Install the <a href="https://snapeda.com/desktop" target="_blank">SnapEDA Desktop</a> app to auto-import
+                                                        </div>
+                                                    </div>
+                                                -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="partimages2d request">
+                                        <svg width="87" height="87">
+                                            <use xlink:href="/assets/img/ghost.svg#ghost"></use>
+                                        </svg>
+                                        <div class="right">
+                                            <div class="text">
+                                                The 2D model for this part is not available
+                                            </div>
+                                            <button id="btnRequest2DModel">Request Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab content" tab-id="3d">
+                                    <div class="partimage3d available">
+                                        <div class="image">
+                                            <img src="#" id="model3d" />
+                                        </div>
+                                        <div class="nopreview">
+                                            <img src="/assets/img/no-preview-3d.png" />
+                                            <div class="text">No preview available</div>
+                                        </div>
+                                        <div class="cad3d">
+                                            <div class="cad3d content">
+                                                <div class="title">&nbsp</div>
+                                                <div class="download">
+                                                    <div class="selectbox">
+                                                        <div class="select">
+                                                            <div class="fakeselect">
+                                                                <input type="text" id="cadformatvalue" value="3D model (STEP)" disabled>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <button class="button main" id="btnDownload3D">
+                                                        <div class="icon white">
+                                                            <svg width="24" height="20">
+                                                                <use xlink:href="/assets/img/download.svg#download">
+                                                                </use>
+                                                            </svg>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                                <!--
+                                                    <div class="alert">
+                                                        <div class="icon">
+                                                            <img width="16" height="16" src="/assets/img/excl.svg">
+                                                        </div>
+                                                        <div class="text">
+                                                            Install the <a href="https://snapeda.com/desktop" target="_blank">SnapEDA Desktop</a> app to auto-import
+                                                        </div>
+                                                    </div>
+                                                -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="partimage3d request">
+                                        <svg width="87" height="87">
+                                            <use xlink:href="/assets/img/ghost.svg#ghost"></use>
+                                        </svg>
+                                        <div class="right">
+                                            <div class="text">
+                                                The 3D model for this part is not available
+                                            </div>
+                                            <button id="btnRequest3DModel">Request Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sitenotsupported">
+                        <svg width="58" height="58">
+                            <use xlink:href="/assets/img/ghost.svg#ghost"></use>
+                        </svg>
+                        <div class="text">This site is not yet supported</div>
+                    </div>
+                </div>
+                <div class="tab content" tab-id="search" tab-title="Discover parts">
+                    <form id="frmDiscovery">
+                        <div class="searchbox">
+                            <input type="text" id="discoverquery" placeholder="What part you are looking for?" />
+                            <a href="#" class="submit">
+                                <div class="icon">
+                                    <svg width="24" height="24">
+                                        <use xlink:href="/assets/img/search.svg#search"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="discoverysample">
+                            Or see examples: <a href="#">USB Type C</a>
+                            <a href="#">SMA Connector</a>
+                        </div>
+                    </form>
+                    <div class="discoverresult" data-last="0" data="null">
+                        <div class="items"></div>
+                    </div>
+                </div>
+                <div class="tab content" tab-id="profile" tab-title="Profile">
+                    <div class="signin">
+                        <div class="title">Sign In</div>
+                        <div class="loginerror">The username/email or password you specified are not correct.</div>
+                        <form id="signin">
+                            <input type="text" id="username" placeholder="Username or email" />
+                            <input type="password" id="password" placeholder="Password" />
+                            <a class="resetpassword" href="https://www.snapeda.com/account/password_reset/" target="_blank">Forgot password?</a>
+                            <input type="submit" value="Log In" />
+                        </form>
+                        <div class="devider"></div>
+                        <div class="signup">
+                            <span>Don't have an account?</span><a href="https://www.snapeda.com/account/signup/?plugin=snap_extension" target="_blank">Sign Up</a>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div class="info">
+                            <div class="avatar"></div>
+                            <div class="detail">
+                                <div class="username"></div>
+                                <div class="credits">
+                                    <div class="title">Available Credits</div>
+                                    <div class="balance">1238</div>
+                                </div>
+                            </div>
+                        </div>
+                        <button id="btnLogout">Log Out</button>
+                    </div>
+                </div>
+            </div>
+            <div class="tabs switcher" style="display: none;">
+                <div class="tab switch" tab-id="component">
+                    <div class="icon">
+                        <svg width="24" height="24">
+                            <use xlink:href="/assets/img/chip.svg#chip"></use>
+                        </svg>
+                    </div>
+                    <div class="indicator"></div>
+                </div>
+                <!--
+          <div class="tab switch" tab-id="search">
+            <div class="icon">
+              <svg width="19" height="19">
+                <use xlink:href="/assets/img/search.svg#search"></use>
+              </svg>
+            </div>
+            <div class="indicator"></div>
+          </div>
+          -->
+                <div class="tab switch" tab-id="profile">
+                    <div class="icon">
+                        <svg width="18" height="19">
+                            <use xlink:href="/assets/img/user.svg#user"></use>
+                        </svg>
+                    </div>
+                    <div class="indicator"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <iframe id="frDownload"></iframe>
+</body>
+
+</html>

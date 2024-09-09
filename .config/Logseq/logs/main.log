@@ -1,0 +1,91 @@
+[2024-09-08 20:41:43.582] [info] Logseq App(0.10.9) Starting... 
+[2024-09-08 20:41:43.586] [info] restore proxy settings {:type "system"}
+[2024-09-08 20:41:43.586] [info] set proxy to {:type "system"}
+[2024-09-08 20:41:44.993] [debug] :electron.handler/watch-dir {:path "/home/ngeran/.logseq/config"}
+[2024-09-08 20:41:48.054] [info] :electron.handler/open-dir open folder selection dialog
+[2024-09-08 20:41:57.979] [debug] :electron.handler/open-dir {:path "/home/ngeran/Dropbox/logseq-sync"}
+[2024-09-08 20:41:58.790] [debug] :electron.handler/watch-dir {:path "/home/ngeran/Dropbox/logseq-sync"}
+[2024-09-08 20:42:12.965] [debug] [Marketplace] === Installing: Bad3r/Logseq-Nord-Theme ===
+[2024-09-08 20:42:13.280] [debug] [Marketplace] INFO: use github api -  https://plugins.logseq.io/github/api
+[2024-09-08 20:42:13.749] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/Bad3r/Logseq-Nord-Theme/releases/latest :status 200
+[2024-09-08 20:42:13.751] [debug] [Marketplace] Release latest: 0.0.19  from https://api.github.com/repos/Bad3r/Logseq-Nord-Theme/releases/assets/158743397
+[2024-09-08 20:42:14.080] [debug] [Marketplace] [Updated DONE] 0.0.19
+[2024-09-08 20:42:19.975] [debug] [Marketplace] === Installing: xyhp915/logseq-journals-calendar ===
+[2024-09-08 20:42:20.338] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/xyhp915/logseq-journals-calendar/releases/latest :status 200
+[2024-09-08 20:42:20.340] [debug] [Marketplace] Release latest: v0.10.10  from https://api.github.com/repos/xyhp915/logseq-journals-calendar/releases/assets/107493748
+[2024-09-08 20:42:20.748] [debug] [Marketplace] [Updated DONE] v0.10.10
+[2024-09-08 20:42:22.086] [debug] [Marketplace] === Installing: pengx17/logseq-plugin-bullet-threading ===
+[2024-09-08 20:42:22.469] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/pengx17/logseq-plugin-bullet-threading/releases/latest :status 200
+[2024-09-08 20:42:22.470] [debug] [Marketplace] Release latest: v1.1.4  from https://api.github.com/repos/pengx17/logseq-plugin-bullet-threading/releases/assets/110059142
+[2024-09-08 20:42:22.813] [debug] [Marketplace] [Updated DONE] v1.1.4
+[2024-09-08 20:42:27.169] [debug] [Marketplace] === Installing: haydenull/logseq-plugin-agenda ===
+[2024-09-08 20:42:27.682] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/haydenull/logseq-plugin-agenda/releases/latest :status 200
+[2024-09-08 20:42:27.683] [debug] [Marketplace] Release latest: v3.13.1  from https://api.github.com/repos/haydenull/logseq-plugin-agenda/releases/assets/170685598
+[2024-09-08 20:42:28.408] [debug] [Marketplace] [Updated DONE] v3.13.1
+[2024-09-08 20:42:36.083] [debug] [Marketplace] === Installing: pengx17/logseq-plugin-todo-master ===
+[2024-09-08 20:42:36.483] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/pengx17/logseq-plugin-todo-master/releases/latest :status 200
+[2024-09-08 20:42:36.485] [debug] [Marketplace] Release latest: v1.10.3  from https://api.github.com/repos/pengx17/logseq-plugin-todo-master/releases/assets/76373049
+[2024-09-08 20:42:36.858] [debug] [Marketplace] [Updated DONE] v1.10.3
+[2024-09-08 20:42:47.186] [debug] [Marketplace] === Installing: yoyurec/logseq-awesome-links ===
+[2024-09-08 20:42:47.573] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/yoyurec/logseq-awesome-links/releases/latest :status 200
+[2024-09-08 20:42:47.575] [debug] [Marketplace] Release latest: v1.15.16  from https://api.github.com/repos/yoyurec/logseq-awesome-links/releases/assets/99250325
+[2024-09-08 20:42:47.964] [debug] [Marketplace] [Updated DONE] v1.15.16
+[2024-09-08 20:42:49.482] [debug] [Marketplace] === Installing: yoyurec/logseq-awesome-props ===
+[2024-09-08 20:42:49.852] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/yoyurec/logseq-awesome-props/releases/latest :status 200
+[2024-09-08 20:42:49.853] [debug] [Marketplace] Release latest: v1.10.0  from https://api.github.com/repos/yoyurec/logseq-awesome-props/releases/assets/98064924
+[2024-09-08 20:42:50.299] [debug] [Marketplace] [Updated DONE] v1.10.0
+[2024-09-08 20:45:34.871] [debug] window-all-closed Quitting...
+[2024-09-09 16:17:57.839] [info] Logseq App(0.10.9) Starting... 
+[2024-09-09 16:17:57.843] [info] restore proxy settings {:type "system"}
+[2024-09-09 16:17:57.843] [info] set proxy to {:type "system"}
+[2024-09-09 16:17:59.535] [debug] :electron.handler/watch-dir {:path "/home/ngeran/.logseq/config"}
+[2024-09-09 16:17:59.547] [debug] :electron.handler/unwatch-dir {:path "/home/ngeran/Dropbox/logseq-sync"}
+[2024-09-09 16:17:59.547] [debug] :electron.handler/watch-dir {:path "/home/ngeran/Dropbox/logseq-sync"}
+[2024-09-09 16:18:00.007] [debug] [Marketplace] === Updating: Bad3r/Logseq-Nord-Theme ===
+[2024-09-09 16:18:00.313] [debug] [Marketplace] INFO: use github api -  https://plugins.logseq.io/github/api
+[2024-09-09 16:18:00.794] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/Bad3r/Logseq-Nord-Theme/releases/latest :status 200
+[2024-09-09 16:18:00.795] [debug] [Marketplace] Release latest: 0.0.19  from https://api.github.com/repos/Bad3r/Logseq-Nord-Theme/releases/assets/158743397
+[2024-09-09 16:18:00.795] [debug] [Marketplace] Release compare: 0.0.19 (current) >  0.0.19 (latest)
+[2024-09-09 16:18:00.795] [debug] [Marketplace] Update skip: no new version
+[2024-09-09 16:18:01.298] [debug] [Marketplace] === Updating: yoyurec/logseq-awesome-links ===
+[2024-09-09 16:18:01.675] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/yoyurec/logseq-awesome-links/releases/latest :status 200
+[2024-09-09 16:18:01.676] [debug] [Marketplace] Release latest: v1.15.16  from https://api.github.com/repos/yoyurec/logseq-awesome-links/releases/assets/99250325
+[2024-09-09 16:18:01.676] [debug] [Marketplace] Release compare: v1.15.16 (current) >  v1.15.16 (latest)
+[2024-09-09 16:18:01.676] [debug] [Marketplace] Update skip: no new version
+[2024-09-09 16:18:02.180] [debug] [Marketplace] === Updating: pengx17/logseq-plugin-todo-master ===
+[2024-09-09 16:18:02.625] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/pengx17/logseq-plugin-todo-master/releases/latest :status 200
+[2024-09-09 16:18:02.626] [debug] [Marketplace] Release latest: v1.10.3  from https://api.github.com/repos/pengx17/logseq-plugin-todo-master/releases/assets/76373049
+[2024-09-09 16:18:02.627] [debug] [Marketplace] Release compare: v1.10.3 (current) >  v1.10.3 (latest)
+[2024-09-09 16:18:02.627] [debug] [Marketplace] Update skip: no new version
+[2024-09-09 16:18:03.131] [debug] [Marketplace] === Updating: yoyurec/logseq-awesome-props ===
+[2024-09-09 16:18:03.508] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/yoyurec/logseq-awesome-props/releases/latest :status 200
+[2024-09-09 16:18:03.510] [debug] [Marketplace] Release latest: v1.10.0  from https://api.github.com/repos/yoyurec/logseq-awesome-props/releases/assets/98064924
+[2024-09-09 16:18:03.510] [debug] [Marketplace] Release compare: v1.10.0 (current) >  v1.10.0 (latest)
+[2024-09-09 16:18:03.510] [debug] [Marketplace] Update skip: no new version
+[2024-09-09 16:18:04.014] [debug] [Marketplace] === Updating: haydenull/logseq-plugin-agenda ===
+[2024-09-09 16:18:04.434] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/haydenull/logseq-plugin-agenda/releases/latest :status 200
+[2024-09-09 16:18:04.435] [debug] [Marketplace] Release latest: v3.13.1  from https://api.github.com/repos/haydenull/logseq-plugin-agenda/releases/assets/170685598
+[2024-09-09 16:18:04.435] [debug] [Marketplace] Release compare: v3.13.1 (current) >  v3.13.1 (latest)
+[2024-09-09 16:18:04.435] [debug] [Marketplace] Update skip: no new version
+[2024-09-09 16:18:04.939] [debug] [Marketplace] === Updating: xyhp915/logseq-journals-calendar ===
+[2024-09-09 16:18:05.389] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/xyhp915/logseq-journals-calendar/releases/latest :status 200
+[2024-09-09 16:18:05.391] [debug] [Marketplace] Release latest: v0.10.10  from https://api.github.com/repos/xyhp915/logseq-journals-calendar/releases/assets/107493748
+[2024-09-09 16:18:05.391] [debug] [Marketplace] Release compare: v0.10.10 (current) >  v0.10.10 (latest)
+[2024-09-09 16:18:05.392] [debug] [Marketplace] Update skip: no new version
+[2024-09-09 16:18:05.895] [debug] [Marketplace] === Updating: pengx17/logseq-plugin-bullet-threading ===
+[2024-09-09 16:18:06.222] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/pengx17/logseq-plugin-bullet-threading/releases/latest :status 200
+[2024-09-09 16:18:06.223] [debug] [Marketplace] Release latest: v1.1.4  from https://api.github.com/repos/pengx17/logseq-plugin-bullet-threading/releases/assets/110059142
+[2024-09-09 16:18:06.223] [debug] [Marketplace] Release compare: v1.1.4 (current) >  v1.1.4 (latest)
+[2024-09-09 16:18:06.223] [debug] [Marketplace] Update skip: no new version
+[2024-09-09 16:59:19.218] [info] Logseq App(0.10.9) Starting... 
+[2024-09-09 16:59:19.225] [info] restore proxy settings {:type "system"}
+[2024-09-09 16:59:19.225] [info] set proxy to {:type "system"}
+[2024-09-09 16:59:20.895] [debug] :electron.handler/watch-dir {:path "/home/ngeran/.logseq/config"}
+[2024-09-09 16:59:20.908] [debug] :electron.handler/unwatch-dir {:path "/home/ngeran/Dropbox/logseq-sync"}
+[2024-09-09 16:59:20.908] [debug] :electron.handler/watch-dir {:path "/home/ngeran/Dropbox/logseq-sync"}
+[2024-09-09 17:08:01.012] [info] Logseq App(0.10.9) Starting... 
+[2024-09-09 17:08:01.019] [info] restore proxy settings {:type "system"}
+[2024-09-09 17:08:01.019] [info] set proxy to {:type "system"}
+[2024-09-09 17:08:02.736] [debug] :electron.handler/watch-dir {:path "/home/ngeran/.logseq/config"}
+[2024-09-09 17:08:02.749] [debug] :electron.handler/unwatch-dir {:path "/home/ngeran/Dropbox/logseq-sync"}
+[2024-09-09 17:08:02.749] [debug] :electron.handler/watch-dir {:path "/home/ngeran/Dropbox/logseq-sync"}

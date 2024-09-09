@@ -1,0 +1,28 @@
+2024/09/09-17:42:50.889 450 Reusing MANIFEST /home/ngeran/.config/thorium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/09-17:42:50.890 450 Recovering log #4
+2024/09/09-17:42:50.890 450 Reusing old log /home/ngeran/.config/thorium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000004.log 
+2024/09/09-17:42:50.921 452 Level-0 table #8: started
+2024/09/09-17:42:50.922 452 Level-0 table #8: 1992 bytes OK
+2024/09/09-17:42:50.923 452 Delete type=0 #4
+2024/09/09-17:42:50.923 442 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/09/09-17:42:53.417 44f Level-0 table #10: started
+2024/09/09-17:42:53.418 44f Level-0 table #10: 778 bytes OK
+2024/09/09-17:42:53.419 44f Delete type=0 #7
+2024/09/09-17:42:53.419 441 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 165 : 1
+2024/09/09-17:42:53.419 441 Compacting 1@0 + 1@1 files
+2024/09/09-17:42:53.419 441 Generated table #11@0: 51 keys, 1353 bytes
+2024/09/09-17:42:53.419 441 Compacted 1@0 + 1@1 files => 1353 bytes
+2024/09/09-17:42:53.420 441 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/09-17:42:53.420 441 Delete type=2 #10
+2024/09/09-17:42:53.420 441 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 165 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/09/09-18:15:09.661 452 Level-0 table #13: started
+2024/09/09-18:15:09.662 452 Level-0 table #13: 3113 bytes OK
+2024/09/09-18:15:09.662 452 Delete type=2 #8
+2024/09/09-18:15:09.662 452 Delete type=0 #9
+2024/09/09-18:15:09.662 442 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 260 : 1
+2024/09/09-18:15:09.662 442 Compacting 1@0 + 1@1 files
+2024/09/09-18:15:09.663 442 Generated table #14@0: 98 keys, 2373 bytes
+2024/09/09-18:15:09.663 442 Compacted 1@0 + 1@1 files => 2373 bytes
+2024/09/09-18:15:09.663 442 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/09-18:15:09.664 442 Delete type=2 #13
+2024/09/09-18:15:09.664 442 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 260 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

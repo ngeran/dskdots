@@ -1,0 +1,115 @@
+2024-09-09 16:18:08.393 [info] Extension host with pid 2344 started
+2024-09-09 16:18:08.393 [info] Skipping acquiring lock for /home/ngeran/.config/Cursor/User/workspaceStorage/2b612c868985fa57951803b7aa370ae8.
+2024-09-09 16:18:08.406 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onWebviewPanel:gitlens.welcome'
+2024-09-09 16:18:08.474 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'api', root cause: eamodio.gitlens
+2024-09-09 16:18:08.480 [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github, startup: true, activationEvent: '*'
+2024-09-09 16:18:08.543 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2024-09-09 16:18:08.569 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-09-09 16:18:08.611 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: eamodio.gitlens
+2024-09-09 16:18:08.644 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-09 16:18:08.721 [info] Eager extensions activated
+2024-09-09 16:18:08.742 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2024-09-09 16:18:08.877 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2024-09-09 16:18:09.005 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2024-09-09 16:18:09.029 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2024-09-09 16:18:09.126 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-09 16:18:09.128 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-09 16:18:09.137 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-09-09 16:29:05.375 [info] Extension host terminating: renderer closed the MessagePort
+2024-09-09 16:29:05.391 [error] Canceled: Canceled
+	at new I (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:35125)
+	at L.U (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:6033)
+	at q.<computed>.J.charCodeAt.D.CharCode.DollarSign.q.<computed> (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:3108)
+	at m.g (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205870)
+	at m.executeCommand (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205308)
+	at N.registerCommand.description (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:204632)
+	at m.h (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:206409)
+	at m.g (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205401)
+	at m.executeCommand (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205308)
+	at Object.executeCommand (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:26184)
+	at w (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1488:39641)
+	at c (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1488:44700)
+	at ActionRunners._updateContextKeys (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1120:19640)
+	at s (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1120:18084)
+	at RegisteredActionRunner.unregister (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1120:18227)
+	at RegisteredActionRunner.dispose (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1120:16881)
+	at ActionRunners.dispose (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1120:17667)
+	at /home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1446:20188
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1446:20170)
+	at y (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:744)
+	at p.eb (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:10094)
+	at /tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7930
+	at Array.map (<anonymous>)
+	at p.$ (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7917)
+	at p.terminate (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:8193)
+	at y.terminate (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:1511)
+	at o (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:10629)
+	at MessagePortMain.<anonymous> (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:6821)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-09-09 16:29:05.391 [error] Canceled: Canceled
+	at new I (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:35125)
+	at L.U (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:6033)
+	at q.<computed>.J.charCodeAt.D.CharCode.DollarSign.q.<computed> (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:3108)
+	at m.g (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205870)
+	at m.executeCommand (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205308)
+	at N.registerCommand.description (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:204632)
+	at m.h (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:206409)
+	at m.g (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205401)
+	at m.executeCommand (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205308)
+	at Object.executeCommand (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:26184)
+	at w (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1488:39641)
+	at c (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1488:44700)
+	at ActionRunners._updateContextKeys (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1120:19640)
+	at s (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1120:18084)
+	at RegisteredActionRunner.unregister (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1120:18227)
+	at RegisteredActionRunner.dispose (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1120:16881)
+	at ActionRunners.dispose (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1120:17667)
+	at /home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1446:20188
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1446:20170)
+	at y (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:744)
+	at p.eb (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:10094)
+	at /tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7930
+	at Array.map (<anonymous>)
+	at p.$ (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7917)
+	at p.terminate (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:8193)
+	at y.terminate (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:1511)
+	at o (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:10629)
+	at MessagePortMain.<anonymous> (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:6821)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-09-09 16:29:05.391 [error] Canceled: Canceled
+	at new I (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:35125)
+	at L.U (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:6033)
+	at q.<computed>.J.charCodeAt.D.CharCode.DollarSign.q.<computed> (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:3108)
+	at m.g (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205870)
+	at m.executeCommand (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205308)
+	at N.registerCommand.description (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:204632)
+	at m.h (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:206409)
+	at m.g (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205401)
+	at m.executeCommand (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205308)
+	at Object.executeCommand (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:26184)
+	at w (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1488:39641)
+	at c (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1488:44700)
+	at ActionRunners._updateContextKeys (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1120:19640)
+	at s (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1120:18084)
+	at RegisteredActionRunner.unregister (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1120:18227)
+	at RegisteredActionRunner.dispose (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1120:16881)
+	at ActionRunners.dispose (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1120:17667)
+	at /home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1446:20188
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0/dist/gitlens.js:1446:20170)
+	at y (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:744)
+	at p.eb (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:10094)
+	at /tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7930
+	at Array.map (<anonymous>)
+	at p.$ (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7917)
+	at p.terminate (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:8193)
+	at y.terminate (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:1511)
+	at o (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:10629)
+	at MessagePortMain.<anonymous> (/tmp/.mount_cursoreMA9Ws/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:6821)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-09-09 16:29:05.391 [info] Extension host with pid 2344 exiting with code 0

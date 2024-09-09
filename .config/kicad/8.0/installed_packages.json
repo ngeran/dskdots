@@ -1,0 +1,333 @@
+{
+    "packages": [
+        {
+            "current_version": "1.0.4",
+            "install_timestamp": 1725919504,
+            "package": {
+                "author": {
+                    "contact": {
+                        "web": "https://asukiaaa.blogspot.com"
+                    },
+                    "name": "Asuki Kono"
+                },
+                "description": "Create gerber files for some PCB order services.",
+                "description_full": "Create zip files which includes gerber files for each PCB services.",
+                "identifier": "com.github.asukiaaa.gerber-to-order",
+                "license": "MIT",
+                "name": "gerber to order",
+                "resources": {
+                    "homepage": "https://github.com/asukiaaa/gerber_to_order"
+                },
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "3abede16c67eab46a21287d79571d35d262f9c770a74b2ba4215d8576364d6bb",
+                        "download_size": 19910,
+                        "download_url": "https://github.com/asukiaaa/gerber_to_order/releases/download/1.0.4/kicad-addon.zip",
+                        "install_size": 33447,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.0.4"
+                    },
+                    {
+                        "download_sha256": "9f26171948514baa4466ed3c3a9e17f69375bc8f266fb65287d715fac80302ac",
+                        "download_size": 19910,
+                        "download_url": "https://github.com/asukiaaa/gerber_to_order/releases/download/1.0.3/kicad-addon.zip",
+                        "install_size": 33448,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.0.3"
+                    },
+                    {
+                        "download_sha256": "c03d99400a62fa2e3ce17699af01d75ea0aca897c8e1d281fa31020b7ecb8fc8",
+                        "download_size": 19858,
+                        "download_url": "https://github.com/asukiaaa/gerber_to_order/releases/download/1.0.2/kicad-addon.zip",
+                        "install_size": 33329,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.0.2"
+                    },
+                    {
+                        "download_sha256": "4a937d06316c02b710017d4c96d6905b824acdce993f6d7666cf9df862e91be1",
+                        "download_size": 19851,
+                        "download_url": "https://github.com/asukiaaa/gerber_to_order/releases/download/1.0.1/kicad-addon.zip",
+                        "install_size": 33318,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.0.1"
+                    },
+                    {
+                        "download_sha256": "fbe8eeb68cd4d4c204333c9e88dabc502ab969ec1ef6beab097fa9870796a872",
+                        "download_size": 19695,
+                        "download_url": "https://github.com/asukiaaa/gerber_to_order/releases/download/1.0.0/kicad-addon.zip",
+                        "install_size": 32808,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "6.0",
+                        "status": "stable",
+                        "version": "1.0.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "1.5",
+            "install_timestamp": 1725919503,
+            "package": {
+                "author": {
+                    "contact": {
+                        "web": "https://mitxela.com"
+                    },
+                    "name": "mitxela"
+                },
+                "description": "A subdivision- and/or native arc-based track rounding plugin.",
+                "description_full": "Algorithmically smooth tracks in a predictable manner. Useful for flex PCBs, or just because it looks cool.",
+                "identifier": "com.github.mitxela.kicad-round-tracks",
+                "license": "Apache-2.0",
+                "name": "Round Tracks",
+                "resources": {
+                    "homepage": "https://github.com/mitxela/kicad-round-tracks"
+                },
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "5f0e15a8e12db58b91c70154cbfcc4d293309af2f1aad503d1560e7b375800f3",
+                        "download_size": 15881,
+                        "download_url": "https://github.com/mitxela/kicad-round-tracks/releases/download/1.5/kicad-round-tracks-1.5.zip",
+                        "install_size": 33698,
+                        "kicad_version": "7.0.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.5"
+                    },
+                    {
+                        "download_sha256": "4466d0a379c25773c07bac3a76815745bbae40576eb3b3fb6eeec22812788547",
+                        "download_size": 15878,
+                        "download_url": "https://github.com/mitxela/kicad-round-tracks/releases/download/1.4/kicad-round-tracks-1.4.zip",
+                        "install_size": 33698,
+                        "kicad_version": "7.0.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.4"
+                    },
+                    {
+                        "download_sha256": "e4d1087cf726018840f5f75291aae55de8cece49e2bada30be1e19ab6b474c40",
+                        "download_size": 15433,
+                        "download_url": "https://github.com/mitxela/kicad-round-tracks/releases/download/1.2/kicad-round-tracks-1.2.zip",
+                        "install_size": 32694,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "6.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.2"
+                    },
+                    {
+                        "download_sha256": "3ac65b3be5f1acd3e56583846d49b19ff425ed0a03154c775f4d655cd30fbdcc",
+                        "download_size": 14742,
+                        "download_url": "https://github.com/mitxela/kicad-round-tracks/releases/download/1.1/kicad-round-tracks-1.1.zip",
+                        "install_size": 29430,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "6.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.1"
+                    },
+                    {
+                        "download_sha256": "0ee531e5f324e22af07df691d529848e36f9960c2e0cf9ce8d4da3c2bcf0cc21",
+                        "download_size": 14632,
+                        "download_url": "https://github.com/mitxela/kicad-round-tracks/releases/download/1.0/kicad-round-tracks-1.0.zip",
+                        "install_size": 29167,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "6.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "1.6",
+            "install_timestamp": 1725919503,
+            "package": {
+                "author": {
+                    "contact": {
+                        "support": "https://forum.kicad.info/"
+                    },
+                    "name": "Albin Dennevi"
+                },
+                "description": "Export a customized pdf of the board",
+                "description_full": "Each enabled template will result in a page in the pdf file that's created by this plugin. You can enable any number of templates to get different views and color modes of the pcb. Each template can be individually configured to give the desired output. It's completely up to you which layers to show, and which colors the layers shall have.",
+                "identifier": "com.gitlab.dennevi.Board2Pdf",
+                "license": "GPL-3.0",
+                "name": "Board2Pdf",
+                "resources": {
+                    "Gitlab": "https://gitlab.com/dennevi/Board2Pdf",
+                    "Readme": "https://gitlab.com/dennevi/Board2Pdf/-/blob/main/README.md",
+                    "Wiki": "http://board2pdf.dennevi.com"
+                },
+                "tags": [
+                    "pcbnew",
+                    "assembly",
+                    "documentation"
+                ],
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "d09e7ec88a22537955887243fb45781d92b2ce0fd71cc59d5003d9fed4da0772",
+                        "download_size": 400266,
+                        "download_url": "https://gitlab.com/dennevi/kicad-plugins-releases/-/raw/main/Board2Pdf/releases/Board2Pdf_v1.6.zip",
+                        "install_size": 1888174,
+                        "kicad_version": "6.0",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.6"
+                    },
+                    {
+                        "download_sha256": "3cf9966dddb3d45aee338383a03bece34a5d387063e43608c038debb1f3751c0",
+                        "download_size": 354169,
+                        "download_url": "https://gitlab.com/dennevi/kicad-plugins-releases/-/raw/main/Board2Pdf/releases/Board2Pdf_v1.3.zip",
+                        "install_size": 1872902,
+                        "kicad_version": "6.0",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.3"
+                    },
+                    {
+                        "download_sha256": "a15ff0537ce436cbc2eab0c8fd3eb4f2a50d857fcbaac6372c712842e009c96f",
+                        "download_size": 129477,
+                        "download_url": "https://gitlab.com/dennevi/kicad-plugins-releases/-/raw/main/Board2Pdf/releases/Board2Pdf_v1.2.zip",
+                        "install_size": 769144,
+                        "kicad_version": "6.0",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.2"
+                    },
+                    {
+                        "download_sha256": "7f774bcad2b56d9df72fb625cefb7153c700ad65fc3f5370224251083f560606",
+                        "download_size": 61342,
+                        "download_url": "https://gitlab.com/dennevi/kicad-plugins-releases/-/raw/main/Board2Pdf/releases/Board2Pdf_v1.1.zip",
+                        "install_size": 445706,
+                        "kicad_version": "6.0",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.1"
+                    },
+                    {
+                        "download_sha256": "1aa55bc50f7cfbb16fa5ee8fb86a6c47dbe526b1d487d7066153e21bb2838c3b",
+                        "download_size": 108872,
+                        "download_url": "https://gitlab.com/dennevi/kicad-plugins-releases/-/raw/main/Board2Pdf/releases/Board2Pdf_v0.7.zip",
+                        "install_size": 646866,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "6.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "testing",
+                        "version": "0.7"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "2.9.0",
+            "install_timestamp": 1725919503,
+            "package": {
+                "author": {
+                    "contact": {
+                        "email": "mail@qu1ck.org"
+                    },
+                    "name": "qu1ck"
+                },
+                "description": "Generate interactive html BOM to assist with manual pcb assembly",
+                "description_full": "This plugin generates a convenient Bill of Materials (BOM) listing with the ability to visually correlate and easily search for components and their placements on the PCB. It is particularly useful when hand-soldering a prototype, as it allows users to quickly find locations of components groups on the board. It is also possible to reverse lookup the component group by clicking on a footprint on the board drawing.\nThe plugin utilizes Pcbnew python API to read PCB data and render silkscreen, fab layer, footprint pads, text, and drawings. BOM table fields and grouping is fully configurable, additional columns, such as a manufacturer ID, can be added in Schematic editor and imported either through the netlist file, XML file generated by Eeschema's internal BOM tool, or from board file itself.\nThere is an option to include tracks/zones data as well as netlist information allowing dynamic highlight of nets on the board.",
+                "identifier": "org.openscopeproject.InteractiveHtmlBom",
+                "keep_on_update": [
+                    ".*/config\\.ini",
+                    ".*/web/user.*"
+                ],
+                "license": "MIT",
+                "name": "Interactive Html Bom",
+                "resources": {
+                    "Demos": "https://openscopeproject.org/InteractiveHtmlBomDemo/",
+                    "Forum": "https://forum.kicad.info/t/interactive-html-bom-plugin-for-kicad-5-0/11713",
+                    "Github": "https://github.com/openscopeproject/InteractiveHtmlBom",
+                    "Wiki": "https://github.com/openscopeproject/InteractiveHtmlBom/wiki"
+                },
+                "tags": [
+                    "bom",
+                    "pcbnew",
+                    "html",
+                    "assembly",
+                    "documentation"
+                ],
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "f9ae167076321d01d77e91c05aeba8e50522dd22433fb042ef3bb2f0bb726f11",
+                        "download_size": 149857,
+                        "download_url": "https://github.com/openscopeproject/InteractiveHtmlBom/releases/download/v2.9.0/InteractiveHtmlBom_v2.9.0_pcm.zip",
+                        "install_size": 728477,
+                        "kicad_version": "6.0",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "2.9.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        }
+    ]
+}

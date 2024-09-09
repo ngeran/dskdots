@@ -1,0 +1,18 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2015 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property laws,
+* including trade secret and or copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+(()=>{const e="acrobatContentScriptDisconnectStart",t="acrobatContentScriptDisconnectEnd",n="acrobat-icon-added",o="acrobat-listener-added";let i,r,c,s,a;const d=()=>{c?.addAcrobatTouchPointInTheMessageView(),s?.processForListView(),r?.processForAlreadyShownNativeViewerPrompt()},m=new MutationObserver((function(){a?.disconnectBodyObserver?m.disconnect():(m.takeRecords(),chrome?.runtime?.id?d():(u(),m?.disconnect()))})),l=()=>{if(a?.adobeCleanFontAdded)return;const e=chrome.runtime.getURL("browser/css/fonts/AdobeClean-Regular.otf"),t=new FontFace("AdobeClean-Regular",`url(${e})`);t.load().then((()=>{document.fonts.add(t)})),a.adobeCleanFontAdded=!0},u=()=>{if(c?.removeAllTouchPoints(),s?.removeAllTouchPoints(),r?.removeAllTouchPoints(),document.querySelector(`img[${n}]`)){const e=document.querySelectorAll(`img[${n}]`);for(let t=0;t<e.length;t++)e[t]?.removeAttribute(n)}if(document.querySelector(`[${o}]`)){const e=document.querySelectorAll(`[${o}="Y"]`);for(let t=0;t<e.length;t++)e[t]?.setAttribute(o,"N")}},h=n=>{window.addEventListener(t,(e=>n.contentScriptDisconnectEnd(e)),{signal:n?.eventControllerSignal}),window.dispatchEvent(new Event("orphanContentScript")),window.dispatchEvent(new CustomEvent(e)),window.addEventListener(e,(()=>(e=>{if(!chrome.runtime?.id){const n=e.createStateToTransferToNewContentScript();e.contentScriptDisconnectStart(),m?.disconnect(),window.dispatchEvent(new CustomEvent(t,{detail:{state:n}}))}})(n)),{signal:n?.eventControllerSignal}),l()},g=async e=>{const t=chrome.runtime.getURL("content_scripts/gmail/state.js");a=(await import(t)).default,(e=>{a&&(a.gmailConfig=e,a.iconURL=chrome.runtime.getURL("browser/images/acrobat_dc_appicon_128.png"),a.iconURLListView=chrome.runtime.getURL("browser/images/acrobat_dc_trefoil_24_white.svg"),a.viewerURLPrefix=chrome.runtime.getURL("viewer.html"))})(e),h(a);const n=chrome.runtime.getURL("content_scripts/gmail/gmail-response-service.js"),o=chrome.runtime.getURL("content_scripts/gmail/native-viewer-touch-point-service.js"),d=chrome.runtime.getURL("content_scripts/gmail/message-view-touch-point-service.js"),m=chrome.runtime.getURL("content_scripts/gmail/list-view-touch-point-service.js");return Promise.all([import(n),import(o),import(d),import(m)]).then((e=>{i=e[0],r=e[1],c=e[2],s=e[3]}))};chrome.runtime.onMessage.addListener((function(e){"acrobatGsuiteTouchPointsDisabled"===e.content_op&&(m?.disconnect(),u(),a?.disconnectEventListeners())})),window.location?.search?.includes("acrobatPromotionSource")||chrome.runtime?.sendMessage({main_op:"gmail-init"},(e=>{e.touchPointSettingEnabled&&(e.enableAttachmentCardPromptInGmail||window.location?.search?.includes("enableAcrobatPromptInGmail"))&&g(e).then((()=>{u(),d(),(()=>{try{const e={childList:!0,subtree:!0};m.observe(document.body,e)}catch(e){}})()}))}))})();

@@ -1,0 +1,2 @@
+[^.]+\.rs-online\.com
+[^.]+\.rsdelivers\.com

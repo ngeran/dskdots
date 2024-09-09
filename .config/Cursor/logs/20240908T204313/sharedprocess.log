@@ -1,0 +1,180 @@
+2024-09-08 20:43:33.370 [info] Getting Manifest... arcticicestudio.nord-visual-studio-code
+2024-09-08 20:43:33.375 [info] Installing extension: arcticicestudio.nord-visual-studio-code {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json","path":"/home/ngeran/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.40.4","date":"2024-09-05T02:52:05.660Z","vscodeVersion":"1.91.1"}}
+2024-09-08 20:43:33.398 [info] Started downloading extension: arcticicestudio.nord-visual-studio-code 0.19.0 file:///home/ngeran/.config/Cursor/CachedExtensionVSIXs/cursor-arcticicestudio.nord-visual-studio-code-0.19.0
+2024-09-08 20:43:33.685 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-amd.js
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-fork.js
+2024-09-08 20:43:33.685 [info] Extension signature verification is not done: arcticicestudio.nord-visual-studio-code
+2024-09-08 20:43:33.692 [info] Extracted extension to file:///home/ngeran/.cursor/extensions/arcticicestudio.nord-visual-studio-code-0.19.0: arcticicestudio.nord-visual-studio-code
+2024-09-08 20:43:33.693 [info] Renamed to /home/ngeran/.cursor/extensions/arcticicestudio.nord-visual-studio-code-0.19.0
+2024-09-08 20:43:33.698 [info] Extension installed successfully: arcticicestudio.nord-visual-studio-code vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json
+2024-09-08 20:43:33.772 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp'
+    at l.create (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19721)
+    at u (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19831)
+    at S.hb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36592)
+    at S.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28940)
+    at async n.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14928)
+    at async Y.vb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:35838)
+2024-09-08 20:43:40.242 [info] Getting Manifest... pkief.material-icon-theme
+2024-09-08 20:43:40.245 [info] Installing extension: pkief.material-icon-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json","path":"/home/ngeran/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.40.4","date":"2024-09-05T02:52:05.660Z","vscodeVersion":"1.91.1"}}
+2024-09-08 20:43:40.266 [info] Started downloading extension: pkief.material-icon-theme 5.10.0 file:///home/ngeran/.config/Cursor/CachedExtensionVSIXs/cursor-pkief.material-icon-theme-5.10.0
+2024-09-08 20:43:40.432 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-amd.js
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-fork.js
+2024-09-08 20:43:40.433 [info] Extension signature verification is not done: pkief.material-icon-theme
+2024-09-08 20:43:40.624 [info] Extracted extension to file:///home/ngeran/.cursor/extensions/pkief.material-icon-theme-5.10.0: pkief.material-icon-theme
+2024-09-08 20:43:40.627 [info] Renamed to /home/ngeran/.cursor/extensions/pkief.material-icon-theme-5.10.0
+2024-09-08 20:43:40.631 [info] Extension installed successfully: pkief.material-icon-theme vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json
+2024-09-08 20:43:40.704 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp'
+    at l.create (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19721)
+    at u (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19831)
+    at S.hb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36592)
+    at S.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28940)
+    at async n.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14928)
+    at async Y.vb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:35838)
+2024-09-08 20:44:00.244 [info] Getting Manifest... eamodio.gitlens
+2024-09-08 20:44:00.251 [info] Installing extension: eamodio.gitlens {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json","path":"/home/ngeran/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.40.4","date":"2024-09-05T02:52:05.660Z","vscodeVersion":"1.91.1"}}
+2024-09-08 20:44:00.271 [info] Started downloading extension: eamodio.gitlens 15.4.0 file:///home/ngeran/.config/Cursor/CachedExtensionVSIXs/cursor-eamodio.gitlens-15.4.0
+2024-09-08 20:44:00.925 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-amd.js
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-fork.js
+2024-09-08 20:44:00.925 [info] Extension signature verification is not done: eamodio.gitlens
+2024-09-08 20:44:01.071 [info] Extracted extension to file:///home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0: eamodio.gitlens
+2024-09-08 20:44:01.079 [info] Renamed to /home/ngeran/.cursor/extensions/eamodio.gitlens-15.4.0
+2024-09-08 20:44:01.093 [info] Extension installed successfully: eamodio.gitlens vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json
+2024-09-08 20:44:01.107 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp'
+    at l.create (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19721)
+    at u (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19831)
+    at S.hb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36592)
+    at S.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28940)
+    at async n.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14928)
+    at async Y.vb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:35838)
+2024-09-08 20:44:01.750 [info] Getting Manifest... mhutchie.git-graph
+2024-09-08 20:44:01.754 [info] Installing extension: mhutchie.git-graph {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json","path":"/home/ngeran/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.40.4","date":"2024-09-05T02:52:05.660Z","vscodeVersion":"1.91.1"}}
+2024-09-08 20:44:01.781 [info] Started downloading extension: mhutchie.git-graph 1.30.0 file:///home/ngeran/.config/Cursor/CachedExtensionVSIXs/cursor-mhutchie.git-graph-1.30.0
+2024-09-08 20:44:01.943 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-amd.js
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-fork.js
+2024-09-08 20:44:01.943 [info] Extension signature verification is not done: mhutchie.git-graph
+2024-09-08 20:44:01.959 [info] Extracted extension to file:///home/ngeran/.cursor/extensions/mhutchie.git-graph-1.30.0: mhutchie.git-graph
+2024-09-08 20:44:01.961 [info] Renamed to /home/ngeran/.cursor/extensions/mhutchie.git-graph-1.30.0
+2024-09-08 20:44:01.970 [info] Extension installed successfully: mhutchie.git-graph vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json
+2024-09-08 20:44:02.040 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp'
+    at l.create (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19721)
+    at u (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19831)
+    at S.hb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36592)
+    at S.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28940)
+    at async n.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14928)
+    at async Y.vb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:35838)
+2024-09-08 20:44:07.939 [info] Getting Manifest... knisterpeter.vscode-github
+2024-09-08 20:44:07.941 [info] Installing extension: knisterpeter.vscode-github {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json","path":"/home/ngeran/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.40.4","date":"2024-09-05T02:52:05.660Z","vscodeVersion":"1.91.1"}}
+2024-09-08 20:44:07.965 [info] Started downloading extension: knisterpeter.vscode-github 0.30.7 file:///home/ngeran/.config/Cursor/CachedExtensionVSIXs/cursor-knisterpeter.vscode-github-0.30.7
+2024-09-08 20:44:08.224 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-amd.js
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-fork.js
+2024-09-08 20:44:08.224 [info] Extension signature verification is not done: knisterpeter.vscode-github
+2024-09-08 20:44:08.349 [info] Extracted extension to file:///home/ngeran/.cursor/extensions/knisterpeter.vscode-github-0.30.7: knisterpeter.vscode-github
+2024-09-08 20:44:08.353 [info] Renamed to /home/ngeran/.cursor/extensions/knisterpeter.vscode-github-0.30.7
+2024-09-08 20:44:08.360 [info] Extension installed successfully: knisterpeter.vscode-github vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json
+2024-09-08 20:44:08.402 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp'
+    at l.create (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19721)
+    at u (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19831)
+    at S.hb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36592)
+    at S.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28940)
+    at async n.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14928)
+    at async Y.vb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:35838)
+2024-09-08 20:44:11.159 [info] Getting Manifest... github.vscode-github-actions
+2024-09-08 20:44:11.162 [info] Installing extension: github.vscode-github-actions {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json","path":"/home/ngeran/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.40.4","date":"2024-09-05T02:52:05.660Z","vscodeVersion":"1.91.1"}}
+2024-09-08 20:44:11.188 [info] Started downloading extension: github.vscode-github-actions 0.26.3 file:///home/ngeran/.config/Cursor/CachedExtensionVSIXs/cursor-github.vscode-github-actions-0.26.3
+2024-09-08 20:44:11.443 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-amd.js
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-fork.js
+2024-09-08 20:44:11.443 [info] Extension signature verification is not done: github.vscode-github-actions
+2024-09-08 20:44:11.498 [info] Extracted extension to file:///home/ngeran/.cursor/extensions/github.vscode-github-actions-0.26.3: github.vscode-github-actions
+2024-09-08 20:44:11.499 [info] Renamed to /home/ngeran/.cursor/extensions/github.vscode-github-actions-0.26.3
+2024-09-08 20:44:11.506 [info] Extension installed successfully: github.vscode-github-actions vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json
+2024-09-08 20:44:11.577 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp'
+    at l.create (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19721)
+    at u (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19831)
+    at S.hb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36592)
+    at S.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28940)
+    at async n.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14928)
+    at async Y.vb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:35838)
+2024-09-08 20:44:22.326 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp'
+    at l.create (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19721)
+    at u (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19831)
+    at S.hb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36592)
+    at S.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28940)
+    at async n.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14928)
+    at async Y.vb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:35838)
+2024-09-08 20:44:45.043 [info] Getting Manifest... 1yib.rust-bundle
+2024-09-08 20:44:45.046 [info] Installing extension: 1yib.rust-bundle {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json","path":"/home/ngeran/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.40.4","date":"2024-09-05T02:52:05.660Z","vscodeVersion":"1.91.1"}}
+2024-09-08 20:44:46.789 [info] Getting Manifest... rust-lang.rust-analyzer
+2024-09-08 20:44:46.814 [info] Getting Manifest... serayuzgur.crates
+2024-09-08 20:44:46.841 [info] Getting Manifest... dustypomerleau.rust-syntax
+2024-09-08 20:44:46.873 [info] Installing extension: rust-lang.rust-analyzer {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json","path":"/home/ngeran/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.40.4","date":"2024-09-05T02:52:05.660Z","vscodeVersion":"1.91.1"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-09-08 20:44:46.873 [info] Installing extension: serayuzgur.crates {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json","path":"/home/ngeran/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.40.4","date":"2024-09-05T02:52:05.660Z","vscodeVersion":"1.91.1"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-09-08 20:44:46.873 [info] Installing extension: dustypomerleau.rust-syntax {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json","path":"/home/ngeran/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.40.4","date":"2024-09-05T02:52:05.660Z","vscodeVersion":"1.91.1"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-09-08 20:44:46.878 [info] Started downloading extension: 1yib.rust-bundle 1.0.0 file:///home/ngeran/.config/Cursor/CachedExtensionVSIXs/cursor-1yib.rust-bundle-1.0.0
+2024-09-08 20:44:46.879 [info] Started downloading extension: rust-lang.rust-analyzer 0.3.2096 file:///home/ngeran/.config/Cursor/CachedExtensionVSIXs/cursor-rust-lang.rust-analyzer-0.3.2096-linux-x64
+2024-09-08 20:44:46.879 [info] Started downloading extension: serayuzgur.crates 0.6.7 file:///home/ngeran/.config/Cursor/CachedExtensionVSIXs/cursor-serayuzgur.crates-0.6.7
+2024-09-08 20:44:46.880 [info] Started downloading extension: dustypomerleau.rust-syntax 0.6.1 file:///home/ngeran/.config/Cursor/CachedExtensionVSIXs/cursor-dustypomerleau.rust-syntax-0.6.1
+2024-09-08 20:44:47.046 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-amd.js
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-fork.js
+2024-09-08 20:44:47.046 [info] Extension signature verification is not done: 1yib.rust-bundle
+2024-09-08 20:44:47.048 [info] Extracted extension to file:///home/ngeran/.cursor/extensions/1yib.rust-bundle-1.0.0: 1yib.rust-bundle
+2024-09-08 20:44:47.049 [info] Renamed to /home/ngeran/.cursor/extensions/1yib.rust-bundle-1.0.0
+2024-09-08 20:44:47.127 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp'
+    at l.create (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19721)
+    at u (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19831)
+    at S.hb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36592)
+    at S.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28940)
+    at async n.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14928)
+    at async Y.vb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:35838)
+2024-09-08 20:44:47.516 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-amd.js
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-fork.js
+2024-09-08 20:44:47.516 [info] Extension signature verification is not done: dustypomerleau.rust-syntax
+2024-09-08 20:44:47.522 [info] Extracted extension to file:///home/ngeran/.cursor/extensions/dustypomerleau.rust-syntax-0.6.1: dustypomerleau.rust-syntax
+2024-09-08 20:44:47.523 [info] Renamed to /home/ngeran/.cursor/extensions/dustypomerleau.rust-syntax-0.6.1
+2024-09-08 20:44:47.572 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-amd.js
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-fork.js
+2024-09-08 20:44:47.572 [info] Extension signature verification is not done: serayuzgur.crates
+2024-09-08 20:44:47.576 [info] Extracted extension to file:///home/ngeran/.cursor/extensions/serayuzgur.crates-0.6.7: serayuzgur.crates
+2024-09-08 20:44:47.577 [info] Renamed to /home/ngeran/.cursor/extensions/serayuzgur.crates-0.6.7
+2024-09-08 20:44:47.600 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp'
+    at l.create (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19721)
+    at u (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19831)
+    at S.hb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36592)
+    at S.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28940)
+    at async n.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14928)
+    at async Y.vb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:35838)
+2024-09-08 20:44:47.988 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-amd.js
+- /tmp/.mount_cursorgw4Efx/resources/app/out/bootstrap-fork.js
+2024-09-08 20:44:47.988 [info] Extension signature verification is not done: rust-lang.rust-analyzer
+2024-09-08 20:44:48.143 [info] Extracted extension to file:///home/ngeran/.cursor/extensions/rust-lang.rust-analyzer-0.3.2096-linux-x64: rust-lang.rust-analyzer
+2024-09-08 20:44:48.146 [info] Renamed to /home/ngeran/.cursor/extensions/rust-lang.rust-analyzer-0.3.2096-linux-x64
+2024-09-08 20:44:48.156 [info] Extension installed successfully: 1yib.rust-bundle vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json
+2024-09-08 20:44:48.156 [info] Extension installed successfully: dustypomerleau.rust-syntax vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json
+2024-09-08 20:44:48.156 [info] Extension installed successfully: serayuzgur.crates vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json
+2024-09-08 20:44:48.156 [info] Extension installed successfully: rust-lang.rust-analyzer vscode-userdata:/home/ngeran/.cursor/extensions/extensions.json
+2024-09-08 20:44:48.166 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ngeran/.cursor/extensions/extensions.json.vsctmp'
+    at l.create (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19721)
+    at u (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19831)
+    at S.hb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36592)
+    at S.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28940)
+    at async n.stat (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14928)
+    at async Y.vb (/tmp/.mount_cursorgw4Efx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:35838)

@@ -1,0 +1,7 @@
+2024/09/09-17:42:24.869 442 Reusing MANIFEST /home/ngeran/.config/thorium/Default/WebStorage/18/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/09/09-17:42:24.869 442 Recovering log #3
+2024/09/09-17:42:24.871 442 Reusing old log /home/ngeran/.config/thorium/Default/WebStorage/18/IndexedDB/indexeddb.leveldb/000003.log 
+2024/09/09-17:42:48.408 442 Level-0 table #5: started
+2024/09/09-17:42:48.409 442 Level-0 table #5: 345999 bytes OK
+2024/09/09-17:42:48.410 442 Delete type=0 #3
+2024/09/09-17:42:48.410 442 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

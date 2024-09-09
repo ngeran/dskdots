@@ -1,0 +1,5 @@
+2024-09-08 20:43:15.694 [error] Failed to initialize FileSyncClient Missing credentials, cannot create client
+2024-09-08 20:43:15.694 [error] Failed to initialize FileSyncer Missing credentials, cannot create client
+2024-09-08 20:43:21.139 [info] File sync client created: https://api4.cursor.sh
+2024-09-08 20:43:21.139 [info] File sync client created: https://api4.cursor.sh
+2024-09-08 20:43:21.242 [info] [ENABLED STATUS] Filesync is NOT enabled.

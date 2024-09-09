@@ -1,0 +1,18 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2015 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property laws,
+* including trade secret and or copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+import{getElementBasedOnSelector,getArrayElementBasedOnSelector,getClosestElementBasedOnSelector,createAcrobatIconElement,createURLForAttachment}from"./util.js";import state from"./state.js";import{sendAnalytics}from"./util.js";import{processForNativeViewer}from"./native-viewer-touch-point-service.js";const ATTACHMENT_CARD_HYPERLINK_CLASS="acrobat-attachmentcard-hyperlink",ACROBAT_PROCESSED_ATTRIBUTE="acrobat-icon-added",getMessageView=()=>getArrayElementBasedOnSelector(document,"messageView","messageView"),getParentElementForAcrobatIcon=e=>getElementBasedOnSelector(e,"attachmentCardParentElementForAcrobatIcon","messageView"),getAttachmentCardElement=e=>getClosestElementBasedOnSelector(e,"attachmentCardElement","messageView"),createAcrobatTooltip=()=>{const e=document.createElement("div");return e.setAttribute("class","acrobat-attachmentcard-tooltip"),e.innerText=state?.gmailConfig?.acrobatPromptText,e},createAcrobatHyperlinkForAttachmentCard=(e,t)=>{e=createURLForAttachment(e,"GmailAttachmentCard",t);const a=document.createElement("a");a.setAttribute("class",ATTACHMENT_CARD_HYPERLINK_CLASS),a.setAttribute("href",e),a.setAttribute("target","_blank"),a.addEventListener("click",(()=>{sendAnalytics([["DCBrowserExt:Gmail:AttachmentCardPrompt:Clicked"]])}),{signal:state?.eventControllerSignal});const r=createAcrobatIconElement(),n=createAcrobatTooltip();return a.appendChild(r),a.appendChild(n),a},getMessageViewPDFAttachmentsWithoutAcrobatIcon=()=>{const e=getMessageView();let t=[];if(e&&e.length>0)for(let a=0;a<e.length;a++){const r=e[a],n=getArrayElementBasedOnSelector(r,"pdfAttachmentWithoutAcrobatIcon","messageView");n&&n.length>0&&t.push(...n)}return t},addAcrobatIconToAttachmentCard=e=>{e?.forEach((e=>{const t=e?.closest("a"),a=t?.getAttribute("href");if(a&&a.includes("drive.google.com"))e.setAttribute("acrobat-icon-added","Y");else{const r=getAttachmentCardElement(e),n=getParentElementForAcrobatIcon(r);if(a&&n){const r=getElementBasedOnSelector(t,"attachmentName","messageView")?.textContent,o=createAcrobatHyperlinkForAttachmentCard(a,r);n.appendChild(o),e.setAttribute("acrobat-icon-added","Y"),t?.addEventListener("click",(()=>{sendAnalytics([["DCBrowserExt:Gmail:AttachmentCard:Clicked"]]),setTimeout((()=>processForNativeViewer({url:a})),500),setTimeout((()=>processForNativeViewer({url:a})),1e3)}),{signal:state?.eventControllerSignal})}}}))},addAcrobatTouchPointInTheMessageView=()=>{try{const e=getMessageViewPDFAttachmentsWithoutAcrobatIcon();e&&e.length>0&&addAcrobatIconToAttachmentCard(e)}catch(e){sendAnalytics([["DCBrowserExt:Gmail:MessageView:ProcessingFailed"]])}},removeAllTouchPoints=()=>{const e=document.querySelectorAll(`.${ATTACHMENT_CARD_HYPERLINK_CLASS}`);if(e&&e.length>0)for(let t=0;t<e.length;t++)e[t]?.parentElement?.removeChild(e[t])};export{addAcrobatTouchPointInTheMessageView,removeAllTouchPoints};

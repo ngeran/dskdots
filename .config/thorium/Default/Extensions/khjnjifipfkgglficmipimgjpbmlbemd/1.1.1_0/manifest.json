@@ -1,0 +1,38 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://wordpress.com/#!/read/"
+      },
+      "urls": [ "*://*.wordpress.com/", "*://wordpress.com/" ]
+   },
+   "description": "Create a beautiful blog in minutes",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "intents": {
+      "http://webintents.org/share": [ {
+         "disposition": "window",
+         "href": "http://wordpress.com/#!/intent/share/",
+         "title": "Share this on your WordPress.com blog",
+         "type": [ "image/*", "video/*", "text/*" ]
+      } ],
+      "http://webintents.org/subscribe": [ {
+         "disposition": "window",
+         "href": "http://wordpress.com/#!/intent/subscribe/",
+         "title": "Follow this site on WordPress.com",
+         "type": [ "application/rss+xml", "application/atom+xml", "text/uri-list" ]
+      } ],
+      "http://webintents.org/view": [ {
+         "disposition": "window",
+         "href": "http://wordpress.com/#!/intent/view/",
+         "title": "Follow this feed on WordPress.com",
+         "type": [ "application/rss+xml", "application/atom+xml", "text/uri-list" ]
+      } ]
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMrX2h2Eie348qvDYRbHaLD5Zvk6Be078CbFclqqZemaPFeh+CK3ji24VwzWXgBP0k3p9sQlHmQwzKeO0zD23Fg/bt0K4Cu2jRgPMXFnJe2gAh9ifO7TJG2PcV2gfbUNZeWs3IH/g07+sxP8k2dD8P/ii7OZ1wW/b39ewK68qfZQIDAQAB",
+   "manifest_version": 2,
+   "name": "WordPress.com",
+   "permissions": [ "unlimitedStorage", "notifications", "geolocation", "clipboardRead", "clipboardWrite", "background" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1.1"
+}

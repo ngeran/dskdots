@@ -1,0 +1,21 @@
+2024/09/09-17:07:39.528 441 Reusing MANIFEST /home/ngeran/.config/thorium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/09-17:07:39.528 441 Recovering log #10
+2024/09/09-17:07:39.532 441 Reusing old log /home/ngeran/.config/thorium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000010.log 
+2024/09/09-17:18:17.505 450 Level-0 table #15: started
+2024/09/09-17:18:17.509 450 Level-0 table #15: 1366764 bytes OK
+2024/09/09-17:18:17.510 450 Delete type=0 #10
+2024/09/09-17:19:56.200 442 Compacting 1@1 + 1@2 files
+2024/09/09-17:19:56.204 442 Generated table #16@1: 353 keys, 37935 bytes
+2024/09/09-17:19:56.204 442 Compacted 1@1 + 1@2 files => 37935 bytes
+2024/09/09-17:19:56.205 442 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/09-17:19:56.205 442 Delete type=2 #15
+2024/09/09-17:19:56.205 442 Delete type=2 #12
+2024/09/09-17:55:25.312 442 Level-0 table #18: started
+2024/09/09-17:55:25.317 442 Level-0 table #18: 1235106 bytes OK
+2024/09/09-17:55:25.318 442 Delete type=0 #14
+2024/09/09-17:59:04.349 441 Compacting 1@1 + 1@2 files
+2024/09/09-17:59:04.353 441 Generated table #19@1: 381 keys, 38452 bytes
+2024/09/09-17:59:04.353 441 Compacted 1@1 + 1@2 files => 38452 bytes
+2024/09/09-17:59:04.353 441 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/09-17:59:04.353 441 Delete type=2 #18
+2024/09/09-17:59:04.353 441 Delete type=2 #16
